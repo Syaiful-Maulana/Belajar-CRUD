@@ -1,5 +1,7 @@
 <?php
+//memasukkan file koneksi di dalamfile menampilkan koneksi.php
 include_once('koneksi.php');
+//variable query menyimpan hasil query
 $judul = $_POST['judul'];
 $penyewa = $_POST['penyewa'];
 $durasi = $_POST['durasi'];
